@@ -23,7 +23,7 @@ public class Ar extends AppCompatActivity {
     private ArFragment arFragment;
     private ModelRenderable modelRenderable;
     //3d model credit : google.poly.com
-    private String Model_URL = "https://github.com/weeidl/TeamLux/blob/master/psss5.glb?raw=true";
+    private String Model_URL = "https://github.com/weeidl/DeelTech/blob/master/Material/PS5.glb?raw=true";
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override

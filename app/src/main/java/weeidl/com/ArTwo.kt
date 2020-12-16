@@ -23,7 +23,7 @@ class ArTwo : AppCompatActivity() {
     private var modelRenderable: ModelRenderable? = null
 
     //3d model credit : google.poly.com
-    private val Model_URL = "https://github.com/weeidl/TeamLux/blob/master/Laptop_New.glb?raw=true"
+    private val Model_URL = "https://github.com/weeidl/DeelTech/blob/master/Material/LAPTOP.glb?raw=true"
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
