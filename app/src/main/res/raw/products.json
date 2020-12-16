@@ -1,0 +1,8 @@
+[
+  {"id":"0","name":"Sony Playstation 5","price":"46 999 ₽ ","path":"img\/mac.png"},
+  {"id":"1","name":"13-inch MacBook Pro 2020","price":"120 000 ₽ ","path":"img\/mac.png"},
+  {"id":"2","name":"iMac","price":"199 999 ₽ ","path":"img\/ps5.png"},
+  {"id":"3","name":"Игровой ноутбук","price":"70 000 ₽ ","path":"img\/ps5.png"},
+  {"id":"4","name":"Наушники Apple","price":"19 999 ₽ \n Специально для пользователей мобильного приложения скидка","path":"img\/ps5.png"},
+  {"id":"5","name":"Xbox series x","price":"49 999 ₽","path":"img\/ps5.png"}
+]
