@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tovar">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/radius2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="16sp" />
+
+    <TextView
+        android:id="@+id/fragment_tovar"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/md_black_1000"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:textColor="@color/md_black_1000"
+        android:textSize="16sp"
+        android:id="@+id/price"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_tovar" />
+
+    <TextView
+        android:id="@+id/opisanie"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Описание:"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_black_1000"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+    <TextView
+        android:id="@+id/opisanie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Можно ли загадать желание, если сидишь между двумя программистами? — Можно! Только глючить будет."
+        android:textColor="@color/md_black_1000"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/opisanie" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/radius3"
+        android:text="Купить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_ar"
+        android:layout_width="150dp"
+        android:background="@drawable/radius3"
+        android:text="Посмотреть\nтовар"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
