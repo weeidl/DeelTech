@@ -1,4 +1,4 @@
-# DeepTech - Интернет магазин
+# DeepTech - Online Store
 
 ## The project was developed in 36 hours at the hackathon
 
